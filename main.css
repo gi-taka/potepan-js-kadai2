@@ -1,0 +1,40 @@
+ol,
+li {
+  list-style: none; }
+
+.calc-app {
+  width: 800px;
+  height: 480px;
+  margin: 100px; }
+  .calc-app .calc-display {
+    width: 100%;
+    height: calc(100% / 6);
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: right;
+    margin-bottom: 10px; }
+  .calc-app .button-area {
+    width: 100%;
+    height: calc(100% / 6);
+    padding: 0;
+    margin: 0; }
+    .calc-app .button-area .calc-button {
+      display: inline-block;
+      float: left;
+      font-size: 200%;
+      text-align: center;
+      border: solid #000000 1px;
+      border-radius: 30px; }
+    .calc-app .button-area .button-decoration {
+      width: calc(94% / 4);
+      height: 96%; }
+    .calc-app .button-area .button-decoration + .button-decoration {
+      margin-left: 2%; }
+    .calc-app .button-area .large-button-decoration {
+      width: calc(98%/ 2);
+      height: 98%; }
+    .calc-app .button-area .large-button-decoration:last-child {
+      margin-left: 2%; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="main.css">
+  <title>電卓</title>
+</head>
+
+<body>
+  <main>
+    <div class="calc-app">
+      <div class="calc-display"></div>
+      <div class="button-area">
+        <button class="natural-number calc-button button-decoration" value="7">7</button>
+        <button class="natural-number calc-button button-decoration" value="8">8</button>
+        <button class="natural-number calc-button button-decoration" value="9">9</button>
+        <button class="math-notation calc-button button-decoration" value="+">+</button>
+      </div>
+      <div class="button-area">
+        <button class="natural-number calc-button button-decoration" value="4">4</button>
+        <button class="natural-number calc-button button-decoration" value="5">5</button>
+        <button class="natural-number calc-button button-decoration" value="6">6</button>
+        <button class="math-notation calc-button button-decoration" value="-">-</button>
+      </div>
+      <div class="button-area">
+        <button class="natural-number calc-button button-decoration" value="1">1</button>
+        <button class="natural-number calc-button button-decoration" value="2">2</button>
+        <button class="natural-number calc-button button-decoration" value="3">3</button>
+        <button class="math-notation calc-button button-decoration" value="*">*</button>
+      </div>
+      <div class="button-area">
+        <button class="zero-number calc-button button-decoration" value="0">0</button>
+        <button class="zero-number calc-button button-decoration" value="00">00</button>
+        <button class="decimal-point calc-button button-decoration" value=".">.</button>
+        <button class="math-notation calc-button button-decoration" value="/">/</button>
+      </div>
+      <div class="button-area">
+        <button class="calc-button all-clear-button large-button-decoration" value="">AC</button>
+        <button class="calc-button equal-button large-button-decoration" value="">=</button>
+      </div>
+    </div>
+    <div class="debug"></div>
+  </main>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
